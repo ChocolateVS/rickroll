@@ -8,6 +8,7 @@ const addVideo = function () {
 	
 	div.setAttribute('style', 'z-index: 100000');
 	document.body.appendChild(div);
+    //alert("HEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHEHHEHEHEHEHEHHE");
 }
 const fadeText = function () {
 	function getRandomColor () {
@@ -66,6 +67,11 @@ window.addEventListener('load', (event) => {
   setTimeout(function(){
     trigger();
     document.querySelector(".loading").style.display = "none";
-      }, 5000);
+      //while(true) {}
+          //window.open("https://chocolatevs.github.io/rickroll");
+      //}
+      
+      }, 3000);
 });
+
 
