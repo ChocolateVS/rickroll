@@ -3,7 +3,8 @@
 const addVideo = function () {
 	var video = ['8ldkYwd3EzE'].sort(() => Math.random() - 0.5).pop();
 	var div = document.createElement('div');
-	div.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+	div.innerHTML =
+    '<video width="1920" height="1080" autoplay> <source src="rickroll.mp4" type="video/mp4">';
 	
 	div.setAttribute('style', 'z-index: 100000');
 	document.body.appendChild(div);
@@ -57,7 +58,7 @@ const fadeText = function () {
 let counter = 0;
 function trigger() {
     addVideo(); 
-    setTimeout(fadeText, 2000);		
+    //setTimeout(fadeText, 2000);		
 }
 
 
